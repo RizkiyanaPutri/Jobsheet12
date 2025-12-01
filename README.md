@@ -14,3 +14,6 @@ perintah penampilan menu langsung di dalam fungsi main.
 #Percobaan 2#
 1. Apakah kegunaan parameter di dalam fungsi?
 >Jawab: parameter di dalam fungsi digunakan untuk menerima nilai dari luar fungsi, membuat fungsi jadi lebih fleksibel, dan fungsi yang sama dapat bekerja dengan nilai berbeda tanpa perlu menulis ulang kodenya.
+2. Jelaskan mengapa pada percobaan ini fungsi Menu() menggunakan parameter
+namaPelanggan dan isMember?
+>Jawab: karena namaPelanggan dibutuhkan agar program dapat menampilkan nama yang sedang menggunakan aplikasi, isMember digunakan untuk mengecek apakah pelanggan adalah member atau bukan sehingga dapat diberi informasi diskon
