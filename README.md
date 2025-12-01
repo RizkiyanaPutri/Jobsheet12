@@ -38,3 +38,9 @@ perintah pemanggilan fungsi menu yang benar.
 pada fungsi Menu() membuat program lebih mudah dibaca dan dikembangkan
 dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa parameter? Jelaskan alasan Anda.
 >Jawab: menurut saya ya, sangat membantu karena penggunaan parameter seperti namaPelanggan dan isMember membuat fungsi menu() lebih mudah dibaca dan dikembangkan karena nilai-nilainya tidak ditulis langsung di dalam fungsi. Parameter membuat fungsi lebih fleksibel, dapat dipakai untuk berbagai data berbeda, serta mempermudah pengelolaan dan penambahan fitur tanpa harus mengubah banyak kode.
+
+#Percobaan 3#
+1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh dari program kafe pada Percobaan 3 untuk masing-masing kasus.
+>Jawab: Fungsi membutuhkan return value ketika fungsi tersebut harus menghasilkan suatu nilai yang akan dipakai kembali oleh program, contoh dari program Kafe adalah pada line 30: public static int hitungTotalHarga(int pilihanMenu, int banyakItem), fungsi ini mengembalikan nilai total harga, karena nilai tersebut perlu diproses lagi (ditampilkan atau dihitung diskon). Fungsi tidak membutuhkan return value (void) ketika
+Fungsi hanya menjalankan aksi, seperti menampilkan teks, tanpa perlu menghasilkan nilai, contoh dari program Kafe adalah pada line 5: public static void menu(String namaPelanggan, boolean isMember, String kodePromo), fungsi ini memakai void karena hanya menampilkan menu dan informasi pelanggan, tidak menghasilkan nilai apa pun untuk dipakai program.
+
