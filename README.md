@@ -5,3 +5,6 @@
 Menu()? Modifikasi kode program tersebut untuk dapat menampilkan daftar menu
 tanpa menggunakan fungsi!
 >Jawab: Bisa, dengan menulis perintah langsung di main()
+3. Jelaskan keuntungan menggunakan fungsi Menu() dibandingkan menulis semua
+perintah penampilan menu langsung di dalam fungsi main.
+>Jawab:keuntungan menggunakan fungsi menu() adalah jika daftar menu akan ditampilkan di banyak tempat maka cukup memanggil fungsi menu() dan jika terjadi perubahan kode maka cukup mengubah kode program pada fungsi main(), dan program lebih terstruktur
