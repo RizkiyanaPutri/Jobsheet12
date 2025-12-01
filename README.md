@@ -19,3 +19,6 @@ namaPelanggan dan isMember?
 >Jawab: karena namaPelanggan dibutuhkan agar program dapat menampilkan nama yang sedang menggunakan aplikasi, isMember digunakan untuk mengecek apakah pelanggan adalah member atau bukan sehingga dapat diberi informasi diskon
 3. Apakah parameter sama dengan variabel? Jelaskan.
 >Jawab: iya, tetapi fungsinya berbeda: Parameter didefinisikan di dalam tanda kurung fungsi sedangkan variabel di dalam isi fungsi, parameter menerima nilai dari luar fungsi sedangkan variabel menyimpan nilai selama fungsi berjalan, dan parameter bersifat input untuk fungsi sedangkan variabel digunakan untuk perhitungan atau proses
+4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu().Apa
+perbedaan output ketika isMember bernilai true dan ketika false?
+>Jawab: isMember bertipe boolean sehingga hanya menerima input true & false. Perbedaan input, jika isMember = true maka program akan menampilkan teks diskon untuk member dan jika isMember = false maka program tidak menampilkan teks diskon untuk member
