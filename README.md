@@ -22,3 +22,6 @@ namaPelanggan dan isMember?
 4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu().Apa
 perbedaan output ketika isMember bernilai true dan ketika false?
 >Jawab: isMember bertipe boolean sehingga hanya menerima input true & false. Perbedaan input, jika isMember = true maka program akan menampilkan teks diskon untuk member dan jika isMember = false maka program tidak menampilkan teks diskon untuk member
+5. Apa yang akan terjadi jika memanggil fungsi Menu() tanpa menyertakan parameter
+namaPelanggan dan isMember?
+>Jawab: muncul error "message": "The method menu(String, boolean) in the type Kafe22 is not applicable for the arguments ()", karena Java mengharuskan pemanggilan fungsi sesuai jumlah dan tipe parameter
