@@ -25,3 +25,12 @@ perbedaan output ketika isMember bernilai true dan ketika false?
 5. Apa yang akan terjadi jika memanggil fungsi Menu() tanpa menyertakan parameter
 namaPelanggan dan isMember?
 >Jawab: muncul error "message": "The method menu(String, boolean) in the type Kafe22 is not applicable for the arguments ()", karena Java mengharuskan pemanggilan fungsi sesuai jumlah dan tipe parameter
+6. Modifikasi kode di atas dengan menambahkan parameter baru kodePromo (String).
+Jika kodePromo adalah "DISKON50", tampilkan berikan diskon 50%. Jika kodePromo
+adalah "DISKON30", tampilkan berikan diskon 30%. Jika tidak ada kode promo yang
+berlaku, tampilkan kode invalid.
+>Jawab: 
+7. Berdasarkan fungsi Menu() di atas, jika nama pelanggan adalah "Budi", pelanggan
+tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris
+perintah pemanggilan fungsi menu yang benar.
+>Jawab: menu("Budi", true, "DISKON30");
