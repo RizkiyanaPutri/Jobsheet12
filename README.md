@@ -17,3 +17,5 @@ perintah penampilan menu langsung di dalam fungsi main.
 2. Jelaskan mengapa pada percobaan ini fungsi Menu() menggunakan parameter
 namaPelanggan dan isMember?
 >Jawab: karena namaPelanggan dibutuhkan agar program dapat menampilkan nama yang sedang menggunakan aplikasi, isMember digunakan untuk mengecek apakah pelanggan adalah member atau bukan sehingga dapat diberi informasi diskon
+3. Apakah parameter sama dengan variabel? Jelaskan.
+>Jawab: iya, tetapi fungsinya berbeda: Parameter didefinisikan di dalam tanda kurung fungsi sedangkan variabel di dalam isi fungsi, parameter menerima nilai dari luar fungsi sedangkan variabel menyimpan nilai selama fungsi berjalan, dan parameter bersifat input untuk fungsi sedangkan variabel digunakan untuk perhitungan atau proses
