@@ -34,3 +34,7 @@ berlaku, tampilkan kode invalid.
 tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris
 perintah pemanggilan fungsi menu yang benar.
 >Jawab: menu("Budi", true, "DISKON30");
+8. Menurut Anda, apakah penggunaan parameter namaPelanggan dan isMember
+pada fungsi Menu() membuat program lebih mudah dibaca dan dikembangkan
+dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa parameter? Jelaskan alasan Anda.
+>Jawab: menurut saya ya, sangat membantu karena penggunaan parameter seperti namaPelanggan dan isMember membuat fungsi menu() lebih mudah dibaca dan dikembangkan karena nilai-nilainya tidak ditulis langsung di dalam fungsi. Parameter membuat fungsi lebih fleksibel, dapat dipakai untuk berbagai data berbeda, serta mempermudah pengelolaan dan penambahan fitur tanpa harus mengubah banyak kode.
