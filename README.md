@@ -49,4 +49,10 @@ Fungsi hanya menjalankan aksi, seperti menampilkan teks, tanpa perlu menghasilka
 #Percobaan 4#
 1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String...namaPengunjung!
 >Jawab: Karena varargs (...) memungkinkan method menerima jumlah argumen yang tidak terbatas bahkan tanpa argumen daftarPengunjung(), jadi String... digunakan karena jumlah nama pengunjung tidak tetap dan ditentukan saat pemanggilan fungsi.
+3. Bisakah menggunakan dua tipe data varaargs dalam satu fungsi? Jelaskan jawaban Anda berdasarkan aturan varargs di Java, dan berikan contohnya!
+>Jawab: tidak bisa karena Java hanya mengizinkan satu parameter varargs dalam satu method dan harus berada di posisi paling akhir, 
+>contoh yang benar -> void contoh(int angka, String... teks) { }
+>contoh yang salah -> void contoh(String... nama, int usia)
+{ }  // ERROR karena varargs bukan di posisi terakhir, 
+>contoh yang salah -> void contoh(String... nama, int... umur) { }   // ERROR karena java hanya mengizinkan satu parameter varargs, Java tidak bisa membedakan batas antara dua varargs karena keduanya dapat menerima jumlah argumen tak terbatas
 
