@@ -46,3 +46,7 @@ Fungsi hanya menjalankan aksi, seperti menampilkan teks, tanpa perlu menghasilka
 2. Fungsi hitungTotalHargaNoAbsen saat ini mengembalikan total harga berdasarkan pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing parameter dalam konteks program kafe.
 >Jawab: tipe data nilai kembalian adalah int, berfungsi mengembalikan totalHarga dalam bentuk bilangan bulat. Dua parameter yang digunakan adalah yang pertama int pilihanMenu yang berisi nomor menu yang dipilih pelanggan (1 -6) dan digunakan untuk mengambil harga item dari array hargaItems, yang kedua int banyakItem, berisi jumlah pesanan yang ingin dibeli pelanggan dan digunakan untuk mengalikan harga item dengan jumlah porsi.
 
+#Percobaan 4#
+1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String...namaPengunjung!
+>Jawab: Karena varargs (...) memungkinkan method menerima jumlah argumen yang tidak terbatas bahkan tanpa argumen daftarPengunjung(), jadi String... digunakan karena jumlah nama pengunjung tidak tetap dan ditentukan saat pemanggilan fungsi.
+
