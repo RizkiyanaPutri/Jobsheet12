@@ -55,4 +55,7 @@ Fungsi hanya menjalankan aksi, seperti menampilkan teks, tanpa perlu menghasilka
 >contoh yang salah -> void contoh(String... nama, int usia)
 { }  // ERROR karena varargs bukan di posisi terakhir, 
 >contoh yang salah -> void contoh(String... nama, int... umur) { }   // ERROR karena java hanya mengizinkan satu parameter varargs, Java tidak bisa membedakan batas antara dua varargs karena keduanya dapat menerima jumlah argumen tak terbatas
-
+4. Jelaskan apa yang terjadi jika fungsi daftarPengunjung dipanggil tanpa argumen.
+Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan?
+Jika tetap berjalan, bagaimana output yang dihasilkan?
+>Jawab: program tetap berjalan tanpa error, varargs(String...) akan menjadi array kosong dan outputnya akan seperti ini -> Daftar Nama Pengunjung: (tidak ada nama yang tampil karena array kosong)
