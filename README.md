@@ -70,3 +70,7 @@ jalannya program sampai output tersebut muncul.
 3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program
 tersebut!
 >Jawab: output -> 1234567, alur jalannya program START -> program menjalankan fungsi main() -> int temp = Jumlah(1, 1); -> memanggil fungsi Jumlah(1, 1) -> menghasilkan nilai 2 -> disimpan ke variabel temp -> Memanggil fungsi TampilJumlah(2, 5) -> dalam fungsi TampilJumlah Hitung Jumlah(2,5) = 7 -> maka program memanggil TampilHinggaKei(7) -> melakukan perulangan j dari 1 hingga 7 -> menampilkan 1234567 -> END
+4. Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak?
+Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak?
+Jelaskan!
+>Jawab: fungsi harus menggunakan parameter ketika fungsi butuh nilai dari luar contoh -> hitungLuas(int pjg, int lb) fungsi butuh angka panjang dan lebar, fungsi tidak perlu parameter jika semua data sudah tersedia di dalan fungsi tersebut(menampilkan menu, teks) | fungsi harus memiliki nilai kembalian ketika fungsi menghasilkan suatu nilai yang perlu dipakai kembali contoh -> hitungLuas() mengembalikan hasil luas, hitungVolume() mengembalikan hasil volume, fungsi tidak perlu nilai kembalian jika hanya perlu melakukan aksi tanpa menghasilkan nilai(menampilkan teks)
