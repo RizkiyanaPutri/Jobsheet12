@@ -74,3 +74,5 @@ tersebut!
 Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak?
 Jelaskan!
 >Jawab: fungsi harus menggunakan parameter ketika fungsi butuh nilai dari luar contoh -> hitungLuas(int pjg, int lb) fungsi butuh angka panjang dan lebar, fungsi tidak perlu parameter jika semua data sudah tersedia di dalan fungsi tersebut(menampilkan menu, teks) | fungsi harus memiliki nilai kembalian ketika fungsi menghasilkan suatu nilai yang perlu dipakai kembali contoh -> hitungLuas() mengembalikan hasil luas, hitungVolume() mengembalikan hasil volume, fungsi tidak perlu nilai kembalian jika hanya perlu melakukan aksi tanpa menghasilkan nilai(menampilkan teks)
+5. Jelaskan kapan sebuah fungsi sebaiknya menggunakan parameter dan kapan fungsi boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume di Percobaan 5
+>Jawab: fungsi sebaiknya menggunakan parameter jika perlu input nilai dari pengguna, contoh -> hitungLuas(p, l) dan hitungVolume(t, p, l) kedua fungsi tersebut membutuhkan nilai dari inputan pengguna yang dikirim ke fungsi melalui parameter | fungsi boleh tanpa parameter jika nilai yang dipakai tetap dan tidak berubah
