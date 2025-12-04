@@ -59,3 +59,7 @@ Fungsi hanya menjalankan aksi, seperti menampilkan teks, tanpa perlu menghasilka
 Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan?
 Jika tetap berjalan, bagaimana output yang dihasilkan?
 >Jawab: program tetap berjalan tanpa error, varargs(String...) akan menjadi array kosong dan outputnya akan seperti ini -> Daftar Nama Pengunjung: (tidak ada nama yang tampil karena array kosong)
+
+#Percobaan 5#
+1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program dijalankan hingga menampilkan luas persegi panjang dan volume balok!
+>Jawab: START dari fungsi main() -> program membuat objek scanner untuk menerima input -> program meminta user menginputkan panjang(p), lebar(l), tinggi(t) -> program memanggil fungsi hitungLuas(p, l) -> fungsi menerima parameter pjg = p dan lb = l -> menghitung Luas = p * l -> return nilai luas ke main() -> fungsi main menampilkan "Luas persegi panjang adalah..." -> program memanggil fungsi hitungVolume(t, p, l) -> fungsi memanggil hitungLuas(a, b) -> nilai luas digunakan untuk menghitung volume = luas*tinggi -> nilai volume dikembalikan ke main() -> fungsi main menampilkan "Volume balok adalah..." -> END
