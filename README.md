@@ -63,3 +63,7 @@ Jika tetap berjalan, bagaimana output yang dihasilkan?
 #Percobaan 5#
 1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program dijalankan hingga menampilkan luas persegi panjang dan volume balok!
 >Jawab: START dari fungsi main() -> program membuat objek scanner untuk menerima input -> program meminta user menginputkan panjang(p), lebar(l), tinggi(t) -> program memanggil fungsi hitungLuas(p, l) -> fungsi menerima parameter pjg = p dan lb = l -> menghitung Luas = p * l -> return nilai luas ke main() -> fungsi main menampilkan "Luas persegi panjang adalah..." -> program memanggil fungsi hitungVolume(t, p, l) -> fungsi memanggil hitungLuas(a, b) -> nilai luas digunakan untuk menghitung volume = luas*tinggi -> nilai volume dikembalikan ke main() -> fungsi main menampilkan "Volume balok adalah..." -> END
+2. Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna
+memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur
+jalannya program sampai output tersebut muncul.
+>Jawab: Output yang muncul -> Masukkan Panjang: 4 Masukkan lebar: 3 Masukkan tinggi: 5 Luas persegi panjang adalah 12 Volume balok adalah 60, alur singkatnya adalah program membaca tiga input, memanggil fungsi hitungLuas() untuk menghitung luas, lalu memanggil fungsi hitungVolume() yang memanfaatkan fungsi hitungLuas() untuk menghitung volume. Setelah hasil diterima kembali ke main dan hasil ditampilkan.
