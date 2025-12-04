@@ -67,3 +67,6 @@ Jika tetap berjalan, bagaimana output yang dihasilkan?
 memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur
 jalannya program sampai output tersebut muncul.
 >Jawab: Output yang muncul -> Masukkan Panjang: 4 Masukkan lebar: 3 Masukkan tinggi: 5 Luas persegi panjang adalah 12 Volume balok adalah 60, alur singkatnya adalah program membaca tiga input, memanggil fungsi hitungLuas() untuk menghitung luas, lalu memanggil fungsi hitungVolume() yang memanfaatkan fungsi hitungLuas() untuk menghitung volume. Setelah hasil diterima kembali ke main dan hasil ditampilkan.
+3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program
+tersebut!
+>Jawab: output -> 1234567, alur jalannya program START -> program menjalankan fungsi main() -> int temp = Jumlah(1, 1); -> memanggil fungsi Jumlah(1, 1) -> menghasilkan nilai 2 -> disimpan ke variabel temp -> Memanggil fungsi TampilJumlah(2, 5) -> dalam fungsi TampilJumlah Hitung Jumlah(2,5) = 7 -> maka program memanggil TampilHinggaKei(7) -> melakukan perulangan j dari 1 hingga 7 -> menampilkan 1234567 -> END
